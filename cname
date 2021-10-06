@@ -1,0 +1,31 @@
+dhfs.heytapimage.com
+
+; <<>> DiG 9.16.11 <<>> dhfs.heytapimage.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 51248
+;; flags: qr rd ra; QUERY: 1, ANSWER: 12, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;dhfs.heytapimage.com.          IN      A
+
+;; ANSWER SECTION:
+dhfs.heytapimage.com.   600     IN      CNAME   dhfs.heytapimage.com.a.bdydns.com.
+dhfs.heytapimage.com.a.bdydns.com. 120 IN CNAME opencdn00.jomodns.com.
+opencdn00.jomodns.com.  60      IN      A       113.137.52.35
+opencdn00.jomodns.com.  60      IN      A       113.105.172.35
+opencdn00.jomodns.com.  60      IN      A       113.113.73.35
+opencdn00.jomodns.com.  60      IN      A       113.96.164.35
+opencdn00.jomodns.com.  60      IN      A       115.238.187.35
+opencdn00.jomodns.com.  60      IN      A       115.238.242.35
+opencdn00.jomodns.com.  60      IN      A       116.253.62.35
+opencdn00.jomodns.com.  60      IN      A       117.34.37.35
+opencdn00.jomodns.com.  60      IN      A       117.91.181.35
+opencdn00.jomodns.com.  60      IN      A       118.180.30.35
+
+;; Query time: 800 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Wed Oct 06 08:43:30 IST 2021
+;; MSG SIZE  rcvd: 285
